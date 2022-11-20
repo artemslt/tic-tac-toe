@@ -1,6 +1,6 @@
 // import Game from "../../Pages/Game";
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 // import { firstPlayer } from "../../redux/plaeyrSlice";
 import { selectedStartIcon } from "../../redux/selectors";
 import { OIcon, XIcon } from "../Icons/Icon.styled";
