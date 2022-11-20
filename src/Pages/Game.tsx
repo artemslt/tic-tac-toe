@@ -2,11 +2,12 @@
 // import { useState } from "react";
 
 import { Board } from "../components/Board/Board";
+
 const Game = () => {
   return (
-    <div>
+    <main>
       <Board />
-    </div>
+    </main>
   );
 };
 export default Game;

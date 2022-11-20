@@ -13,12 +13,12 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <main>
       <ChoosePlayer
         handlePlayerX={handlePlayerX}
         handlePlayerO={handlePlayerO}
       />
-    </div>
+    </main>
   );
 };
 
