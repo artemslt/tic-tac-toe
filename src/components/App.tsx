@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Routes, Route } from "react-router-dom";
 import SharedLayout from "./SharedLayout/SharedLayout";
 import Home from "../Pages/Home";
@@ -5,7 +7,7 @@ import Game from "../Pages/Game";
 import Winner from "../Pages/Winner";
 import NotFound from "../Pages/NotFound";
 
-export const App = () => {
+export const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<SharedLayout />}>

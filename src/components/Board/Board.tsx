@@ -1,5 +1,5 @@
 // import Game from "../../Pages/Game";
-import { useState } from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 // import { firstPlayer } from "../../redux/plaeyrSlice";
 import { selectedStartIcon } from "../../redux/selectors";
@@ -10,7 +10,7 @@ interface SquareProp {
   value: JSX.Element | string | null;
   onClick(): void;
 }
-export const Board = () => {
+export const Board: React.FC = () => {
   // const [newGame, setNewGame] = useState<boolean>(false);
   const [squares, setSqaures] = useState<Array<any>>(Array(9).fill(null));
 
